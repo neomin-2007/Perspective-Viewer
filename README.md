@@ -13,6 +13,10 @@ java -jar perspective-viewer.jar
 # Made forms
 ``
 cube.json
+``
+``
 triangle.json
+``
+``
 hexagon.json
 ``
