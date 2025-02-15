@@ -9,3 +9,10 @@ using JSON files, you have Vertex and Edgets to manage it.
 ``
 java -jar perspective-viewer.jar
 ``
+
+# Made forms
+``
+cube.json
+triangle.json
+hexagon.json
+``
