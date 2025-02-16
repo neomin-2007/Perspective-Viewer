@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Program extends JFrame {
 
     public Program() {
-        setTitle("Perspective Viewer - 1.0");
+        setTitle("Perspective Viewer - 1.0 by TioStitch");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
