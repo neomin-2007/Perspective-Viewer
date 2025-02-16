@@ -1,4 +1,4 @@
-# Renderizador 3D para 2D
+# JG-Render
 
 Este projeto é um renderizador que converte objetos tridimensionais (3D) representados em arquivos `.json` para uma projeção bidimensional (2D). O renderizador utiliza Java e a biblioteca `javax.swing` para desenhar as arestas do objeto 3D em uma tela 2D.
 
