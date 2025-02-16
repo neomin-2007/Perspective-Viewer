@@ -38,7 +38,7 @@ public class Program extends JFrame {
             }
         };
 
-        JButton fileButton = new JButton("Select file here");
+        JButton fileButton = new JButton("Select the file here");
         fileButton.setPreferredSize(new Dimension(150, 50));
         fileButton.addActionListener(new AbstractAction() {
 
