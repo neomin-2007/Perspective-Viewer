@@ -4,7 +4,7 @@ This project is a renderer that converts three-dimensional (3D) objects represen
 
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/BPNMHWz.png" alt="Descrição da imagem"/>
+  <img src="https://i.imgur.com/eRej6cl.png" alt="Prisma em perspectiva"/>
 </div>
 
 ## Features
