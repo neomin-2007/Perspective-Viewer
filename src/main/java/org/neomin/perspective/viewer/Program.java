@@ -1,6 +1,6 @@
 package org.neomin.perspective.viewer;
 
-import org.neomin.perspective.viewer.graphics.PerspectiveFrame;
+import org.neomin.perspective.viewer.graphics.RenderFrame;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Program extends JFrame {
 
     public Program() {
-        setTitle("Perspective Viewer - 1.0");
+        setTitle("JG-Render - File Select");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -38,7 +38,7 @@ public class Program extends JFrame {
             }
         };
 
-        JButton fileButton = new JButton("Select the file here");
+        JButton fileButton = new JButton("Select file here");
         fileButton.setPreferredSize(new Dimension(150, 50));
         fileButton.addActionListener(new AbstractAction() {
 
@@ -58,7 +58,7 @@ public class Program extends JFrame {
                     return;
                 }
 
-                new PerspectiveFrame(json.toString());
+                new RenderFrame(json.toString());
             }
         });
 

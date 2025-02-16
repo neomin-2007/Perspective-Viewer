@@ -5,18 +5,20 @@ import org.neomin.perspective.viewer.objects.Geometry;
 
 import javax.swing.*;
 
-public class PerspectiveFrame
+public class RenderFrame
 extends JFrame {
 
-    public PerspectiveFrame(String text) {
-        setTitle("Perspective View - Viewer");
+    public RenderFrame(String text) {
+        setTitle("JG-Render - View");
         setSize(800, 600);
         setVisible(true);
 
         final Gson gson = new Gson();
         final Geometry geometry = gson.fromJson(text, Geometry.class);
 
-        add(new PerspectivePanel(geometry));
+        final RenderPanel render = new RenderPanel(geometry);
+        add(render);
+        addKeyListener(render);
 
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
