@@ -78,13 +78,7 @@ extends JPanel implements KeyListener {
         g2D.drawString("(U - ⨁) Zoom out", 520, 550);
         g2D.drawString("(H - ⨂) Zoom in", 520, 575);
 
-        int now_edge = 0;
-
         for (int[] edge : geometry.getEdges()) {
-
-            if (geometry.getVertex().length < now_edge) {
-                continue;
-            }
 
             int[] rotX1 = rotateX(geometry.getVertex()[edge[0]][0], geometry.getVertex()[edge[0]][1], geometry.getVertex()[edge[0]][2], rotX);
             int[] rotX2 = rotateX(geometry.getVertex()[edge[1]][0], geometry.getVertex()[edge[1]][1], geometry.getVertex()[edge[1]][2], rotX);
