@@ -22,7 +22,7 @@ This project consists of two main classes:
         - `vertex`: A matrix of vertices (3D coordinates).
         - `edges`: A matrix of edges (connections between vertices).
 
-## Exemplo de Arquivo JSON
+## Archive Example
 
 The `.json` archive example:
 
