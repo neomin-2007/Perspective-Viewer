@@ -90,7 +90,6 @@ extends JPanel implements KeyListener {
             int[] point2 = project(rotY2[0], rotY2[1], rotY2[2]);
 
             g2D.drawLine(point1[0] + x, point1[1] + y, point2[0] + x, point2[1] + y);
-            now_edge++;
         }
     }
 
