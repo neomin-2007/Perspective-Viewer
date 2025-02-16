@@ -16,7 +16,9 @@ extends JFrame {
         final Gson gson = new Gson();
         final Geometry geometry = gson.fromJson(text, Geometry.class);
 
-        add(new PerspectivePanel(geometry));
+        final PerspectivePanel perspectivePanel = new PerspectivePanel(geometry);
+        add(perspectivePanel);
+        addKeyListener(perspectivePanel);
 
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
