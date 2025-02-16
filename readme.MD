@@ -2,6 +2,8 @@
 
 This project is a renderer that converts three-dimensional (3D) objects represented in .json files into a two-dimensional (2D) projection. The renderer uses Java and the javax.swing library to draw the edges of the 3D object on a 2D canvas. It also includes interactive features such as rotation, translation, and zooming.
 
+[!image](https://i.imgur.com/BPNMHWz.png)
+
 ## Features
 
 - **JSON File Parsing**: The renderer accepts `.json` files containing the definition of vertices and edges of a 3D object.
