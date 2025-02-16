@@ -72,11 +72,11 @@ extends JPanel implements KeyListener {
         g2D.drawString("(→) To Right", 675, 550);
         g2D.drawString("(←) To Left", 675, 575);
 
-        g2D.drawString("(O - ↺) Rotate X", 520, 500);
-        g2D.drawString("(K - ↻) Rotate Y", 520, 525);
+        g2D.drawString("(O ↺) Rotate X", 520, 500);
+        g2D.drawString("(K ↻) Rotate Y", 520, 525);
 
-        g2D.drawString("(U - ⨁) Zoom out", 520, 550);
-        g2D.drawString("(H - ⨂) Zoom in", 520, 575);
+        g2D.drawString("(U ⨁) Zoom out", 520, 550);
+        g2D.drawString("(H ⨂) Zoom in", 520, 575);
 
         for (int[] edge : geometry.getEdges()) {
 
