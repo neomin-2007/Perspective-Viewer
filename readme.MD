@@ -6,6 +6,7 @@ Este projeto é um renderizador que converte objetos tridimensionais (3D) repres
 
 - **Leitura de arquivos JSON**: O renderizador aceita arquivos `.json` que contêm a definição de vértices e arestas de um objeto 3D.
 - **Projeção 3D para 2D**: Utiliza uma projeção simples para converter coordenadas 3D em 2D.
+- **Rotação e movimentação**: O renderizador permite que você rotacione e mova o objeto em questão.
 - **Renderização em tempo real**: Desenha as arestas do objeto 3D em uma janela gráfica.
 
 ## Estrutura do Projeto
